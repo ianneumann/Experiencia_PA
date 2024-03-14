@@ -18,4 +18,5 @@ def cachipun():
     u = str(input('Elegir piedra, papel o tijera! '))
 
     print(f'El computador saco {c} y el usuario saco {u}!')
+    '''a ver a ver'''
 
