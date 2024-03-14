@@ -8,7 +8,7 @@ def adivinar_numero():
     """
 
     num = random.randint(1,10)
-    resp = int(input('Adivina el numero oh usuario rey '))
+    resp = int(input('Adivina el numero del 1 al 10 oh usuario rey: '))
 
     if resp == num:
         print('Hurra! Lo haz hecho de maravilla (como siempre)')
