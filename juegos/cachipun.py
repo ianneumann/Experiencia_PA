@@ -18,5 +18,10 @@ def cachipun():
     u = str(input('Elegir piedra, papel o tijera! '))
 
     print(f'El computador saco {c} y el usuario saco {u}!')
-    '''a ver a ver'''
+    if (c == 'piedra' and u == 'tijera') or (c == 'papel' and u == 'piedra') or (c == 'tijera' and u == 'papel'):
+        print('Perdiste cabeza de chorlito!')
+    elif (u == 'piedra' and c == 'tijera') or (u == 'papel' and c == 'piedra') or (u == 'tijera' and c == 'papel'):
+        print('Has ganao!')
+    elif u == c:
+        print('Es un empate')
 
