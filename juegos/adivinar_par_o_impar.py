@@ -20,4 +20,4 @@ def adivinar_par_o_impar():
         print("Adivinaste correctamente mi perro")
     else:
         print("Adivinaste incorrectamente mi dog")
-    pass
+    
