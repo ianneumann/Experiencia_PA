@@ -7,7 +7,7 @@ def adivinar_par_o_impar():
     Se debe mostrar si el usuario adivina correctamente o no.
     """
 
-    numero = random.randint()
+    numero = random.randint(1,10)
     adivinanza = input()
     resultado = input()
 
